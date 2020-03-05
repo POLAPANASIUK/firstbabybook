@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">firstbabybook</string>
+    <string name="name">Mi Nombre</string>
+    <string name="lastname">Mi Apellido</string>
+    <string name="date_born">¿Cuándo nací?</string>
+    <string name="place_born">¿Donde Nací?</string>
+    <string name="weight">¿Cuánto pesé?</string>
+    <string name="size">¿Cuánto medí?</string>
+</resources>
