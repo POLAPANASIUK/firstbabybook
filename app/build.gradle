@@ -17,10 +17,16 @@ android {
         }
     }
 }
-
+def AAVersion = '4.6.0'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //android annotations, https://github.com/androidannotations/androidannotations/releases
+    annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
+    //
+    implementation "org.androidannotations:androidannotations-api:$AAVersion"
+
+
 
 }

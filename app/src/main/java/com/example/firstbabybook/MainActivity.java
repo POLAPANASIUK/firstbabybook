@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.polaapp.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.firstbabybook.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
