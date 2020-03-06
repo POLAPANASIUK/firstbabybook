@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Click(R.id.btnSave)
     public void saveFirstData(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        Intent intent = new Intent(this, DisplayMessageActivity_.class);
         String message = this.txtName.getText().toString();
         message.concat(this.txtLastName.getText().toString());
         intent.putExtra(EXTRA_MESSAGE, message);
