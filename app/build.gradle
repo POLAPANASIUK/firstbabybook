@@ -42,7 +42,6 @@ dependencies {
     annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
     //
     implementation "org.androidannotations:androidannotations-api:$AAVersion"
-
-
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
 
 }

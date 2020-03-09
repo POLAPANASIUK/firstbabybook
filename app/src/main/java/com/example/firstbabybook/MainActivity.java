@@ -6,6 +6,8 @@ import android.widget.TextView;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.Click;
+import org.androidannotations.annotations.FragmentById;
+import com.example.firstbabybook.fragments.SideBarFragment;
 
 @EActivity(R.layout.activity_main)
 public class MainActivity extends AppCompatActivity {
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     @ViewById protected TextView  txtPlaceBorn;
     @ViewById protected TextView  txtWeight;
     @ViewById protected TextView  txtSize;
+    @FragmentById protected SideBarFragment sideBarFragment;
+
 
     @Click(R.id.btnSave)
     public void saveFirstData(View view) {
