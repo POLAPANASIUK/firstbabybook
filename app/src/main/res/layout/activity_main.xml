@@ -4,11 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="729dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
@@ -56,9 +56,15 @@
             android:id="@+id/txtSize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="@string/size">
-        </EditText>
+            android:hint="@string/size"
+            android:inputType="text"></EditText>
+
+        <Button
+            android:id="@+id/buttonAddQualifications"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caracteristicas" />
 
         <Button
             android:id="@+id/btnSave"
