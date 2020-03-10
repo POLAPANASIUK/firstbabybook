@@ -31,10 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Click(R.id.buttonAddQualifications)
     public void addQualifications(View view) {
-       /* Intent intent = new Intent(this, DisplayMessageActivity_.class);
-        String message = this.txtName.getText().toString();
-        message.concat(this.txtLastName.getText().toString());
-        intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);*/
+        DialogTest dialog = new DialogTest(this);
+        dialog.show();
     }
 }
